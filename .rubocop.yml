@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 105
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/ClassLength:
+  Exclude:
+    - main.rb
+
+Metrics/AbcSize:
+  Max: 20
+
+Naming/PredicateName:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
